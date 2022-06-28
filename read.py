@@ -1,4 +1,5 @@
 import cv2 as cv
+from cv2 import imshow
 import numpy as np
 
 img = cv.imread('Photos/cat_large.jpg')
@@ -6,7 +7,6 @@ cv.imshow("Pic", img)
 
 cv.imshow('Cat',img)
 
-def rescaleFrame(frame, scale = 0.75):
 
 
 # capture = cv.VideoCapture('Videos/vid1.mp4')
