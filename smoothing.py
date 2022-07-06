@@ -1,6 +1,4 @@
-from re import I
 import cv2 as cv
-from cv2 import imshow
 
 img = cv.imread('Photos /pic.jpg')
 cv.imshow('Pic',img)
