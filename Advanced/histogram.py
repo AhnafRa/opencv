@@ -27,7 +27,7 @@ cv.imshow('Mask', masked)
 # plt.show()
 
 # Colour Histogram      
-
+8
 plt.figure()
 plt.title('Colour Histogram')
 plt.xlabel('Bins')
